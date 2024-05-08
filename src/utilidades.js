@@ -92,6 +92,7 @@ export function desenharProdutoCarrinhoSimples(
   elementoArticle.classList.add("p-1");
   elementoArticle.classList.add("relative");
   elementoArticle.classList.add("mb-2");
+  elementoArticle.classList.add("w-96");
 
   const cartaoProdutoCarrinho = `
     <img
