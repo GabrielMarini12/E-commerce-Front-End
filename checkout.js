@@ -35,7 +35,7 @@ function finalizarCompra(evt) {
   salvarLocalStorage("historico", historicoDePedidosAtualizado);
   apagarDoLocalStorage("carrinho");
 
-  window.location.href = window.location.origin + "/pedidos.html";
+  window.location.href = "./pedidos.html";
 }
 
 desenharProdutosCheckout();
