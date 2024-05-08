@@ -1,3 +1,4 @@
+import { atualizarPrecoCarrinho } from "./src/menuCarrinho";
 import {
   desenharProdutoCarrinhoSimples,
   lerLocalStorage,
@@ -15,6 +16,8 @@ function desenharProdutosCheckout() {
       idsProdutoCarrinhoComQuantidade[idProduto]
     );
   }
+
+  atualizarPrecoCarrinho();
 }
 
 function finalizarCompra(evt) {
